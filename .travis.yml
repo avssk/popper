@@ -5,5 +5,5 @@ python: 2.7
 services: docker
 install:
 - git clone https://github.com/systemslab/popper /tmp/popper
-- pip install /tmp/popper/cli/
+- pip install --user /tmp/popper/cli/
 script: popper run
